@@ -5,9 +5,7 @@ from django.shortcuts import render
 def samplefunction(request):
     return HttpResponse("hello")
 def londonfun(request):
-    return render(request,'akhil.html')
-
-    
+    return render(request,'akhil.html')   
 def hello(request):
-    return render(request,' akhil.html')
+    return render(request,'ak.html')
     
