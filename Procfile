@@ -1,0 +1,1 @@
+web: gunicorn chelseaproject.wsgi --log-file -
